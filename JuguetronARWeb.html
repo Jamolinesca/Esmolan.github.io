@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<script src="ARJS_Files/aframe.min.js"></script>
+<script src="ARJS_Files/aframe-ar.js"></script>
+<script src="ARJS_Files/aframe-extras-loaders.js"></script>
+<script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/cfe5f316/dist/aframe-extras.js"></script>
+
+<a-scene embedded arjs = 'trackingMethod: best;'>
+<a-anchor hit-testing-enabled='true'>
+    <!-- <a-entity
+		position="0.5 -2 -0.5"
+		scale ="1 1 1"
+		obj-model="obj: url(models/stormtrooper.obj);">
+	</a-entity> -->
+    <!-- <a-entity 
+		animation-mixer="loop: repeat" 
+		shadow="cast: true" 
+		id="Gunnar" 
+		scale="1 1 1" 
+		position="0.5 -2 -0.5" 
+		json-model="src: url(models/stormtrooper.json);"> 
+	</a-entity> -->
+	<a-entity 
+		id="walker" 
+		gltf-model="src: url(models/scene.gltf);" 
+		position="0.5 -2 -0.5" 
+		scale="0.5 0.5 0.5"
+		animation-mixer>
+	</a-entity>
+</a-anchor>
+	<a-camera-static/>
+</a-scene>
+</html>
