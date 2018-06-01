@@ -7,12 +7,13 @@
 
 <head>
 	<style>
-		#shot {
+		.button {
 	    position: absolute;
 	    top: 0px;
 	    right: 0px;
-	    margin: 5px;
+	    margin: 10px 10px;
 		}
+		.button5 {font-size: 85px;}
     </style>
 </head>
 <body>
@@ -261,5 +262,5 @@
 	</script>
 </body>
 
-<!-- <canvas width='1080' height='1920' style='visibility:hidden;' id='doubleImage'></canvas> -->
-<button id="shot" onclick="takeScreenshot()">Snapshot</button>
+<canvas width='640' height='480' style='visibility:hidden;' id='doubleImage'></canvas>
+<button class="button button5" onclick="takeScreenshot()">Snapshot</button>
