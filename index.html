@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-<script src="ARJS_Files/aframe.min.js"></script>
-<script src="ARJS_Files/aframe-ar.js"></script>
-<script src="ARJS_Files/aframe-extras-loaders.js"></script>
-<script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/cfe5f316/dist/aframe-extras.js"></script>
+<script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
+<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+<script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
 
 <head>
 	<style>
@@ -30,25 +29,20 @@
 	renderer.domElement.style.top = '0px'
 	renderer.domElement.style.left = '0px'
 	document.body.appendChild( renderer.domElement );
-
 	// array of functions for the rendering loop
 	var onRenderFcts= [];
-
 	// init scene and camera
 	var scene	= new THREE.Scene();
 		
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Initialize a basic camera
 	//////////////////////////////////////////////////////////////////////////////////
-
 	// Create a camera
 	var camera = new THREE.Camera();
 	scene.add(camera);
-
 	////////////////////////////////////////////////////////////////////////////////
 	//          handle arToolkitSource
 	////////////////////////////////////////////////////////////////////////////////
-
 	var arToolkitSource = new THREEx.ArToolkitSource({
 		// to read from the webcam 
 		sourceType : 'webcam',
@@ -56,12 +50,10 @@
 		// // to read from an image
 		// sourceType : 'image',
 		// sourceUrl : THREEx.ArToolkitContext.baseURL + '../data/images/img.jpg',		
-
 		// to read from a video
 		// sourceType : 'video',
 		// sourceUrl : THREEx.ArToolkitContext.baseURL + '../data/videos/headtracking.mp4',		
 	})
-
 	arToolkitSource.init(function onReady(){
 		onResize()
 	})
@@ -81,7 +73,6 @@
 	//          initialize arToolkitContext
 	////////////////////////////////////////////////////////////////////////////////
 	
-
 	// create atToolkitContext
 	var arToolkitContext = new THREEx.ArToolkitContext({
 		cameraParametersUrl: THREEx.ArToolkitContext.baseURL + '../data/data/camera_para.dat',
@@ -92,11 +83,9 @@
 		// copy projection matrix to camera
 		camera.projectionMatrix.copy( arToolkitContext.getProjectionMatrix() );
 	})
-
 	// update artoolkit on every frame
 	onRenderFcts.push(function(){
 		if( arToolkitSource.ready === false )	return
-
 		arToolkitContext.update( arToolkitSource.domElement )
 		
 		// update scene.visible if the marker is seen
@@ -117,11 +106,9 @@
 	})
 	// as we do changeMatrixMode: 'cameraTransformMatrix', start with invisible scene
 	scene.visible = false
-
 	//////////////////////////////////////////////////////////////////////////////////
 	//		add an object in the scene
 	//////////////////////////////////////////////////////////////////////////////////
-
 	// add a torus knot	
 	// var geometry	= new THREE.CubeGeometry(1,1,1);
 	// var material	= new THREE.MeshNormalMaterial({
@@ -142,46 +129,36 @@
 	// onRenderFcts.push(function(delta){
 	// 	mesh.rotation.x += Math.PI*delta
 	// })
+
 	var loader = new THREE.GLTFLoader();
 	// Load a glTF resource
-	loader.load(
-		// resource URL
-		'models/iron_man.gltf',
-		// called when the resource is loaded
-		function ( gltf ) {
-
-			scene.add( gltf.scene );
-
-			gltf.animations; // Array<THREE.AnimationClip>
-			gltf.scene; // THREE.Scene
-			gltf.scenes; // Array<THREE.Scene>
-			gltf.cameras; // Array<THREE.Camera>
-			gltf.asset; // Object
-
-		},
-		// called when loading is in progresses
-		function ( xhr ) {
-
-			console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
-
-		},
-		// called when loading has errors
-		function ( error ) {
-
-			console.log( 'An error happened' );
-
-		}
-	);
-
+    loader.load('model_captain/scene.gltf', function (data) {
+        gltf = data;
+        var object;
+        if ( gltf.scene !== undefined ) {
+            object = gltf.scene; // default scene
+        } else if ( gltf.scenes.length > 0 ) {
+            object = gltf.scenes[0]; // other scene
+        }
+        		
+		var animations = gltf.animations;
+        if ( animations && animations.length ) {
+            mixer = new THREE.AnimationMixer( object );
+            for ( var i = 0; i < animations.length; i ++ ) {
+                var animation = animations[ i ];
+                mixer.clipAction( animation ).play();
+                console.log( 'Animation happened');
+            }
+        }
+        scene.add(object);
+    });
 	//////////////////////////////////////////////////////////////////////////////////
 	//		render the whole thing on the page
 	//////////////////////////////////////////////////////////////////////////////////
-
 	// render the scene
 	onRenderFcts.push(function(){
 		renderer.render( scene, camera );
 	})
-
 	// run the rendering loop
 	var lastTimeMsec= null
 	requestAnimationFrame(function animate(nowMsec){
