@@ -4,7 +4,7 @@
 #snap-button-wrapper{
     position: fixed;
     bottom:0;
-    width: 228%;
+    width: 210%;
     z-index: 9999;
     display: flex;
     align-items: center;
