@@ -16,8 +16,8 @@ function resizeCanvas(origCanvas, width, height) {
 	let resizedCanvas = document.createElement("canvas");
 	let resizedContext = resizedCanvas.getContext("2d");
 
-	resizedCanvas.height = width;
-	resizedCanvas.width = height;
+	resizedCanvas.height = height;
+	resizedCanvas.width = width;
 
 	resizedContext.drawImage(origCanvas, 0, 0, width, height);
 	return resizedCanvas.toDataURL();
