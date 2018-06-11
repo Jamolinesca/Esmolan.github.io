@@ -1,10 +1,10 @@
 #app{
     z-index: 1;
 }
-a-scene {
+/*a-scene {
  height: 667px;
  width: 375px;
-}
+}*/
 #snap-button-wrapper{
     position: fixed;
     bottom:0;
