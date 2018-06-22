@@ -8,13 +8,13 @@
 #snap-button-wrapper{
     position: fixed;
     bottom:0;
-    width: 210%;
+    width: 100%;
     z-index: 9999;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px;
-    background-color: #f44336;
+    padding: 0px;
+    background-color: #1FB25A;
 }
 #snap-button{
     position: relative;
@@ -23,4 +23,12 @@
     border-radius: 50%;
     height: 52px;
     width: 52px;
+}
+.banner{
+    width: 100%;
+    display: block;
+}
+.banner > .banner-image{
+    width: 100%;
+    display: block;
 }
