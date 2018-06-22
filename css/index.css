@@ -8,7 +8,7 @@
 #snap-button-wrapper{
     position: fixed;
     bottom:0;
-    width: 100%;
+    width: 238%;
     z-index: 9999;
     display: flex;
     align-items: center;
@@ -29,6 +29,7 @@
     display: block;
 }
 .banner > .banner-image{
-    width: 100%;
+    width: 50%;
     display: block;
+    padding-left: 240px;
 }
