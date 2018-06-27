@@ -96,7 +96,7 @@
     }
 }
 
-@media all and (min-height: 375px) {
+@media all and (min-height: 812px) {
     #snap-button-wrapper{
         position: fixed;
         bottom:0;
