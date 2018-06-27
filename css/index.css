@@ -158,3 +158,34 @@
         height: 10%;
     }
 }
+
+@media all and (min-width: 469px) {
+    #snap-button-wrapper{
+        position: fixed;
+        bottom:0;
+        width: 193%;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        background-color: #1FB25A;
+    }
+    #snap-button{
+        position: relative;
+        transition: all 0.35s cubic-bezier(0.36, 0, 0.29, 1), z-index 0s linear;
+        background-color: #f8fdff;
+        border-radius: 50%;
+        height: 52px;
+        width: 52px;
+    }
+    .banner{
+        width: 100%;
+        display: block;
+    }
+    .banner > .banner-image{
+        width: 55%;
+        display: block;
+        padding-left: 204px;
+    }
+}
