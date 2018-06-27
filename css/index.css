@@ -5,31 +5,140 @@
  height: 667px;
  width: 375px;
 }*/
-#snap-button-wrapper{
-    position: fixed;
-    bottom:0;
-    width: 238%;
-    z-index: 9999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0px;
-    background-color: #1FB25A;
-}
-#snap-button{
-    position: relative;
-    transition: all 0.35s cubic-bezier(0.36, 0, 0.29, 1), z-index 0s linear;
-    background-color: #f8fdff;
-    border-radius: 50%;
-    height: 52px;
-    width: 52px;
-}
 .banner{
     width: 100%;
     display: block;
 }
-.banner > .banner-image{
-    width: 50%;
-    display: block;
-    padding-left: 240px;
+    #snap-button-wrapper{
+        position: fixed;
+        bottom:0;
+        width: 238%;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        background-color: #1FB25A;
+    }
+    #snap-button{
+        position: relative;
+        transition: all 0.35s cubic-bezier(0.36, 0, 0.29, 1), z-index 0s linear;
+        background-color: #f8fdff;
+        border-radius: 50%;
+        height: 52px;
+        width: 52px;
+    }
+    .banner > .banner-image{
+        width: 50%;
+        display: block;
+        padding-left: 240px;
+    }
+/* Mobile Styles */
+@media screen and (max-width: 375px) , screen and (max-height: 667px) {
+    #snap-button-wrapper{
+        position: fixed;
+        bottom:0;
+        width: 238%;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        background-color: #1FB25A;
+    }
+    #snap-button{
+        position: relative;
+        transition: all 0.35s cubic-bezier(0.36, 0, 0.29, 1), z-index 0s linear;
+        background-color: #f8fdff;
+        border-radius: 50%;
+        height: 52px;
+        width: 52px;
+    }
+    .banner > .banner-image{
+        width: 50%;
+        display: block;
+        padding-left: 240px;
+    }
+}
+
+@media screen and (max-width: 412px) , screen and (max-height: 640px) {
+    #snap-button-wrapper{
+        position: fixed;
+        bottom:0;
+        width: 215%;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        background-color: #1FB25A;
+    }
+    #snap-button{
+        position: relative;
+        transition: all 0.35s cubic-bezier(0.36, 0, 0.29, 1), z-index 0s linear;
+        background-color: #f8fdff;
+        border-radius: 50%;
+        height: 52px;
+        width: 52px;
+    }
+    .banner > .banner-image{
+        width: 50%;
+        display: block;
+        padding-left: 230px;
+    }
+}
+
+@media screen and (max-width: 375px) , screen and (max-height: 812px) {
+    #snap-button-wrapper{
+        position: fixed;
+        bottom:0;
+        width: 289%;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        background-color: #1FB25A;
+    }
+    #snap-button{
+        position: relative;
+        transition: all 0.35s cubic-bezier(0.36, 0, 0.29, 1), z-index 0s linear;
+        background-color: #f8fdff;
+        border-radius: 50%;
+        height: 52px;
+        width: 52px;
+    }
+    .banner > .banner-image{
+        width: 45%;
+        display: block;
+        padding-left: 344px;
+    }
+}
+
+@media screen and (max-width: 768px) , screen and (max-height: 1024px) {
+    #snap-button-wrapper{
+        position: fixed;
+        bottom:0;
+        width: 177%;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+        background-color: #1FB25A;
+    }
+    #snap-button{
+        position: relative;
+        transition: all 0.35s cubic-bezier(0.36, 0, 0.29, 1), z-index 0s linear;
+        background-color: #f8fdff;
+        border-radius: 50%;
+        height: 62px;
+        width: 62px;
+    }
+    .banner > .banner-image{
+        width: 45%;
+        display: block;
+        padding-left: 344px;
+        height: 10%;
+    }
 }
