@@ -96,7 +96,7 @@
     }
 }
 
-/*@media all and (min-width: 375px) {
+@media all and (min-width: 375px) , all and (min-height: 812px) {
     #snap-button-wrapper{
         position: fixed;
         bottom:0;
@@ -125,7 +125,7 @@
         display: block;
         padding-left: 344px;
     }
-}*/
+}
 
 @media all and (min-width: 768px) {
     #snap-button-wrapper{
