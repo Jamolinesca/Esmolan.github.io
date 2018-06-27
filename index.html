@@ -22,7 +22,7 @@
 	        <a-asset-item id="gltf3" src="model_ironman/scene.gltf"></a-asset-item>
 	        <img id="salsa_negra" src="img/Camarones-a-la-diabla.png">
 	      </a-assets>
-	      <a-marker type="pattern" url="https://raw.githubusercontent.com/Esmolan/Esmolan.github.io/master/juguetron-marker.patt" size="1">
+	      <a-marker type="pattern" url="https://raw.githubusercontent.com/Esmolan/Esmolan.github.io/master/ironman-marker.patt" size="1">
 				<a-gltf-model src="#gltf3" 
 					position="0 0 0"
 					rotation="0 0 0"
@@ -30,7 +30,8 @@
 					animation-mixer="loop:repeat">
 				</a-gltf-model>	
 	      </a-marker>
-	      <a-marker preset="hiro">
+	      <a-marker type="pattern" url="https://raw.githubusercontent.com/Esmolan/Esmolan.github.io/master/trooper-marker.patt" size="1">
+	      <!-- <a-marker preset="hiro"> -->
 	 			<a-gltf-model src="#gltf2" 
 					position="0 0 0"
 					rotation="0 0 0"
@@ -38,9 +39,9 @@
 					animation-mixer="loop:repeat">
 				</a-gltf-model>	
 		  </a-marker>
-		  <a-marker type="pattern" url="https://raw.githubusercontent.com/Esmolan/Esmolan.github.io/master/salsa_negra.patt" size="1">
+<!-- 		  <a-marker type="pattern" url="https://raw.githubusercontent.com/Esmolan/Esmolan.github.io/master/salsa_negra.patt" size="1">
 		  		<a-image width="200" height="100" rotation="-90 0 0" src="#salsa_negra"></a-image>
-		  </a-marker>
+		  </a-marker> -->
 	      <a-entity camera></a-entity>
 	  </a-scene>
 	  <div id="snap-button-wrapper">
