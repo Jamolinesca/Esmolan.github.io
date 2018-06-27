@@ -34,7 +34,7 @@
     padding-left: 240px;
 }
 /* Mobile Styles */
-@media all and (min-width: 375px) , all and (max-height: 667px) {
+@media all and (min-width: 375px) {
     #snap-button-wrapper{
         position: fixed;
         bottom:0;
@@ -65,7 +65,7 @@
     }
 }
 
-@media all and (min-width: 412px) , all and (max-height: 640px) {
+@media all and (min-width: 412px) {
     #snap-button-wrapper{
         position: fixed;
         bottom:0;
@@ -96,7 +96,7 @@
     }
 }
 
-@media all and (min-width: 375px) , all and (max-height: 812px) {
+/*@media all and (min-width: 375px) {
     #snap-button-wrapper{
         position: fixed;
         bottom:0;
@@ -125,9 +125,9 @@
         display: block;
         padding-left: 344px;
     }
-}
+}*/
 
-@media all and (min-width: 768px) , all and (max-height: 1024px) {
+@media all and (min-width: 768px) {
     #snap-button-wrapper{
         position: fixed;
         bottom:0;
