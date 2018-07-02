@@ -2,9 +2,10 @@
 <html>
   <head>
   	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-	<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-  	<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
-	<!-- script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"script -->
+	<script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
+	<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+	<script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 	
  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/index.css"> 
@@ -14,11 +15,10 @@
 	  	  <a class="banner"><img class="banner-image" src="img/jugue_banner.png" width="65" height="65"></a>
 	      <canvas></canvas>
 	      <a-assets>
-	        <!-- <a-asset-item id="gltf1" src="model_captain/scene.gltf"></a-asset-item> -->
-	        <a-asset-item id="capamerica-obj" src="model_captain/CapAmerica.obj"></a-asset-item>
-      		<a-asset-item id="capamerica-mtl" src="model_captain/CapAmerica.mtl"></a-asset-item>
+	        <a-asset-item id="gltf1" src="model_captain/scene.gltf"></a-asset-item>
 	        <a-asset-item id="gltf2" src="model_stormtrooper/scene.gltf"></a-asset-item>
 	        <a-asset-item id="gltf3" src="model_ironman/scene.gltf"></a-asset-item>
+	        <img id="salsa_negra" src="img/Camarones-a-la-diabla.png">
 	      </a-assets>
 	      <a-marker type="pattern" url="https://raw.githubusercontent.com/Esmolan/Esmolan.github.io/master/ironman-marker.patt" size="1">
 				<a-gltf-model src="#gltf3" 
@@ -39,15 +39,12 @@
 		  </a-marker>
 		  <a-marker type="pattern" url="https://raw.githubusercontent.com/Esmolan/Esmolan.github.io/master/capitan-marker.patt" size="1">
 	      <!-- <a-marker preset="hiro"> -->
-	          <a-entity rotation="0 0 0" scale="20 20 20" position="0 0 0">
-	            <!-- <a-gltf-model src="#gltf1" 
-					position="0 -0.04 -0.09"
+	          <a-entity rotation="0 0 0" scale="2.54 2.54 2.54" position="0 -3 0.125">
+	 			<a-gltf-model src="#gltf1" 
+					position="-7 0 -1"
 					rotation="0 0 0"
 					scale="20 20 20">
-			    </a-gltf-model> -->	
-			    <a-obj-model src="#capamerica-obj" mtl="#capamerica-mtl" 
-	               scale="20 20 20" position="0 0 0"
-	            ></a-obj-model>
+				</a-gltf-model>	
 	          </a-entity>
 		  </a-marker>
 	      <a-entity camera></a-entity>
@@ -60,4 +57,14 @@
       <script src="js/capture.js"></script>
       <script src="js/index.js"></script>
   </body>
+<!--   <div class="container">
+	  <div class="app">
+	    <img id="snap">
+	    <p id="error-message"></p>
+	    <a href="#" id="delete-photo" title="Delete Photo" class="disabled"><i class="material-icons">delete</i></a>
+	    <a href="#" id="take-photo" title="Take Photo"><i class="material-icons">camera_alt</i></a>
+	    <a href="#" id="download-photo" download="selfie.png" title="Save Photo" class="disabled"><i class="material-icons">file_download</i></a>   
+	  </div>
+  </div> -->
+<!-- <script src="js/script.js"></script> -->
 </html>
