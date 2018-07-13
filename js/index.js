@@ -19,7 +19,19 @@ function resizeCanvas(origCanvas, width, height) {
 	resizedCanvas.height = height;
 	resizedCanvas.width = width;
 
-	resizedContext.drawImage(origCanvas, 0, 0, width, height);
+    if (width > height) {
+    // Landscape
+    resizedContext.drawImage(origCanvas, 0, 0, width, height);
+	} else {
+	    // Portrait
+	    var scale = height / width;
+	    var scaledHeight = origCanvas.width * scale;
+	    var scaledWidth = origCanvas.height * scale;
+	    var marginLeft = ( origCanvas.width - scaledWidth) / 2;
+	    resizedContext.drawImage(origCanvas, marginLeft, 0, scaledWidth, scaledHeight);
+	}
+
+	// resizedContext.drawImage(origCanvas, 0, 0, width, height);
 	return resizedCanvas.toDataURL();
 }
 
