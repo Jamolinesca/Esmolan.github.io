@@ -9,24 +9,24 @@ function captureVideoFrame(video, format, width, height) {
             return false;
         }
 
-        var canvas = document.createElement("CANVAS");
+        let canvas = document.createElement("CANVAS");
 
         canvas.width = width || video.videoWidth;
         canvas.height = height || video.videoHeight;
         canvas.getContext('2d').drawImage(video, 0, 0);
-        var dataUri = canvas.toDataURL('image/' + format);
-        var data = dataUri.split(',')[1];
-        var mimeType = dataUri.split(';')[0].slice(5)
+        let dataUri = canvas.toDataURL('image/' + format);
+        let data = dataUri.split(',')[1];
+        let mimeType = dataUri.split(';')[0].slice(5)
 
-        var bytes = window.atob(data);
-        var buf = new ArrayBuffer(bytes.length);
-        var arr = new Uint8Array(buf);
+        let bytes = window.atob(data);
+        let buf = new ArrayBuffer(bytes.length);
+        let arr = new Uint8Array(buf);
 
-        for (var i = 0; i < bytes.length; i++) {
+        for (let i = 0; i < bytes.length; i++) {
             arr[i] = bytes.charCodeAt(i);
         }
 
-        var blob = new Blob([ arr ], { type: mimeType });
+        let blob = new Blob([ arr ], { type: mimeType });
         return { blob: blob, dataUri: dataUri, format: format, width: canvas.width, height: canvas.height };
     };
 
