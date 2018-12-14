@@ -64,6 +64,8 @@ Pictures:
 Schematic:
 <br>
 
+![Gloves](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/glove.JPG) <br> Figure: 
+
 ## Resources:
 
 * Leap Motion Repository: https://github.com/leapmotion/ProjectNorthStar
