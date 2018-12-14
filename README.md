@@ -32,7 +32,11 @@ Pictures:
 
 ![Headset Assembly](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/IMG_20181111_130435.jpg)
 
+![Headset Assembly](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/IMG_20181111_130423.jpg)
 
+![Headset Assembly](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/IMG_20181206_103323.jpg)
+
+### Step 1: Headset Assembly
 
 
 ## Resources:
