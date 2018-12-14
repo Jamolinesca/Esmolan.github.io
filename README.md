@@ -24,9 +24,9 @@ Step 1:
 Headset Assembly
 
 ![Project North Star Headset Assembly](https://exiii.jp/wp-content/uploads/2018/07/deal-drawing.png)
-https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/IMG_20181111_130423.jpg
 
 Pictures:
+<br>
 ![Headset Assembly](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/IMG_20181111_130427.jpg)
 
 Figure: 
