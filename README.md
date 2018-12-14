@@ -20,9 +20,13 @@ Thank you.
 
 ## Process:
 
-Headset Assembly:
+Step 1:
+Headset Assembly
 
 ![Project North Star Headset Assembly](https://exiii.jp/wp-content/uploads/2018/07/deal-drawing.png)
+
+Pictures:
+
 
 Figure: 
 
