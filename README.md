@@ -35,8 +35,12 @@ Pictures:
 <br>
 <br>
 <br>
-<br>
+
+
 ### Step 2: Lenses
+
+Pictures:
+<br>
 
 ![Lenses](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/grit.JPG) <br> Figure: Polish the lense for 3 hours first with waterproof sand paper. Starting at 350 Grit to 1600 Grit, incrementing.
 
