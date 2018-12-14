@@ -14,7 +14,7 @@
 
 Headset Assembly:
 
-![Project North Star Headset Assembly](https://raw.githubusercontent.com/Esmolan/Esmolan.github.io/blob/master/headset_3D_print.png)
+![Project North Star Headset Assembly](https://exiii.jp/wp-content/uploads/2018/07/deal-drawing.png)
 
 Figure: 
 
