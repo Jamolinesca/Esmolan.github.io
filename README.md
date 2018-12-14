@@ -53,7 +53,6 @@ Pictures:
 
 Arduino Schematic:
 <br>
-![Gloves](https://exiii.jp/wp-content/uploads/2018/07/deal-drawing.png)
 
 Pictures:
 <br>
