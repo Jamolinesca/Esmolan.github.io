@@ -10,13 +10,16 @@
 
 [Juan Molina](https://jamolinaescalante.myportfolio.com/) <br> [Matthew Haeger]() <br> [Aidan Rafferty]()
 
+## Process:
 
-## Resources:
-
-* Desktop PC with Unity 3D program.
-* Print SLA Lenses: https://github.com/mdrjjn/northStarAssemblyGuide
-* Print PLA Headset Parts: https://docs.google.com/spreadsheets/d/17OPl2oNZefMu_XfwKp9CA5PygzD6_z3uMTJ1lndurGw/edit?usp=sharing
-* 
+Headset Assembly:
 
 ![Project North Star Headset Assembly](https://raw.githubusercontent.com/danielleithinger/pentable/master/pentable-graphic.jpg)
 Figure: 
+
+## Resources:
+
+* Leap Motion Repository: https://github.com/leapmotion/ProjectNorthStar
+* Project North Star Simplified Version Assembly Tutorial: https://exiii.jp/2018/07/25/project_north_star_en/
+* Print SLA Lenses: https://github.com/mdrjjn/northStarAssemblyGuide
+* 3D Print Parts and Materials: https://docs.google.com/spreadsheets/d/17OPl2oNZefMu_XfwKp9CA5PygzD6_z3uMTJ1lndurGw/edit?usp=sharing 
