@@ -34,10 +34,15 @@ Pictures:
 
 ![Headset Assembly](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/IMG_20181111_130423.jpg)
 
-![Headset Assembly](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/IMG_20181206_103323.jpg)
 
-### Step 1: Headset Assembly
+### Step 2: Lenses
 
+![Lenses](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/grit.JPG)
+Figure: Polish the lense for 3 hours first with waterproof sand paper. Starting at 350 Grit to 1600 Grit, incrementing.
+
+![Lenses](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/IMG_20181202_151812.jpg)
+![Lenses](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/compound_applied.JPG)
+Figrues: Apply plastic polish Novus 2 scratch remover compound using a drill if you have, for 10 minutes.
 
 ## Resources:
 
@@ -45,3 +50,7 @@ Pictures:
 * Project North Star Simplified Version Assembly Tutorial: https://exiii.jp/2018/07/25/project_north_star_en/
 * Print SLA Lenses: https://github.com/mdrjjn/northStarAssemblyGuide
 * 3D Print Parts and Materials: https://docs.google.com/spreadsheets/d/17OPl2oNZefMu_XfwKp9CA5PygzD6_z3uMTJ1lndurGw/edit?usp=sharing 
+* Mirror Film: https://www.amazon.com/VViViD-One-Way-Bronze-Mirror-Self-Adhesive/dp/B076XHLKC6/ref=sr_1_1?rps=1&ie=UTF8&qid=1533776277&sr=8-1&keywords=window+mirror+film&refinements=p_85%3A2470955011
+* Display Screens: https://www.amazon.com/OSOYOO-Monitor-Display-instructions-Raspberry/dp/B01N447AEY/ref=sr_1_1?ie=UTF8&qid=1533769748&sr=8-1&keywords=3.5+inch+monitor+hdmi
+* Headgear: https://www.amazon.co.jp/gp/product/B00NXN21DK/
+* Plastic Polish: https://www.amazon.com/gp/product/B002UCYRZU/ref=oh_aui_detailpage_o00_s01?ie=UTF8&psc=1
