@@ -32,6 +32,7 @@ Pictures:
 ![Headset Assembly](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/IMG_20181111_130435.jpg)
 
 ![Headset Assembly](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/IMG_20181111_130423.jpg)
+
 <br>
 <br>
 <br>
@@ -46,6 +47,24 @@ Pictures:
 
 ![Lenses](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/IMG_20181202_151812.jpg)
 ![Lenses](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/compound_applied.JPG) <br> Figrues: Apply plastic polish Novus 2 scratch remover compound using a drill if you have, for 10 minutes.
+
+
+### Step 3: Gloves
+
+Arduino Schematic:
+<br>
+![Gloves](https://exiii.jp/wp-content/uploads/2018/07/deal-drawing.png)
+
+Pictures:
+<br>
+
+![Gloves](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/glove.JPG) <br> Figure: 
+
+### Step 4: Set up
+
+Schematic:
+<br>
+![Gloves](https://exiii.jp/wp-content/uploads/2018/07/deal-drawing.png)
 
 ## Resources:
 
