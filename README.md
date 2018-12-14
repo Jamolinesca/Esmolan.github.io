@@ -23,7 +23,6 @@ Thank you.
 ### Step 1: Headset Assembly
 
 ![Project North Star Headset Assembly](https://exiii.jp/wp-content/uploads/2018/07/deal-drawing.png)
-Figure: 
 
 Pictures:
 <br>
@@ -33,12 +32,10 @@ Pictures:
 ![Headset Assembly](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/IMG_20181111_130435.jpg)
 
 ![Headset Assembly](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/IMG_20181111_130423.jpg)
-
-
-
-
-
-
+<br>
+<br>
+<br>
+<br>
 ### Step 2: Lenses
 
 ![Lenses](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/grit.JPG) <br> Figure: Polish the lense for 3 hours first with waterproof sand paper. Starting at 350 Grit to 1600 Grit, incrementing.
