@@ -64,7 +64,7 @@ Pictures:
 Schematic:
 <br>
 
-![Gloves](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/glove.JPG) <br> Figure: 
+![Gloves](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/schematic_everything_connected.jpg) <br> Figure: 
 
 ## Resources:
 
