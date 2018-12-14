@@ -35,13 +35,16 @@ Pictures:
 ![Headset Assembly](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/IMG_20181111_130423.jpg)
 
 
+
+
+
+
 ### Step 2: Lenses
 
 ![Lenses](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/grit.JPG) <br> Figure: Polish the lense for 3 hours first with waterproof sand paper. Starting at 350 Grit to 1600 Grit, incrementing.
 
 ![Lenses](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/IMG_20181202_151812.jpg)
-![Lenses](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/compound_applied.JPG)
-Figrues: Apply plastic polish Novus 2 scratch remover compound using a drill if you have, for 10 minutes.
+![Lenses](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/compound_applied.JPG) <br> Figrues: Apply plastic polish Novus 2 scratch remover compound using a drill if you have, for 10 minutes.
 
 ## Resources:
 
