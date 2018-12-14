@@ -27,6 +27,7 @@ Headset Assembly
 
 Pictures:
 <br>
+
 ![Headset Assembly](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/IMG_20181111_130427.jpg)
 
 Figure: 
