@@ -64,7 +64,12 @@ Pictures:
 Schematic:
 <br>
 
-![Gloves](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/schematic_everything_connected_%40.jpg) <br> Figure: (RED) HDMI Cables, (BLUE) Micro-USB Cables, (BLACK) USB Cables
+![Setup](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/schematic_everything_connected_%40.jpg) <br> Figure: (RED) Micro-USB Cables, (BLUE) HDMI Cables, (BLACK) USB Cables
+
+
+Screen Displays:
+
+![Setup](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/schematic_everything_connected_%40.jpg) <br>
 
 ## Resources:
 
