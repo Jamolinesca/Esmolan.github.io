@@ -16,7 +16,7 @@ Thank you.
 
 ## Team Members:
 
-[Juan Molina](https://jamolinaescalante.myportfolio.com/) <br> [Matthew Haeger]() <br> [Aidan Rafferty](https://aidanrafferty.com)
+[Juan Molina](https://jamolinaescalante.myportfolio.com/) <br> [Matthew Haeger]() <br> [Aidan Rafferty](https://aidanrafferty.myportfolio.com/)
 
 ## Process:
 
