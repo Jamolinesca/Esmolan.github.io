@@ -59,15 +59,8 @@ Pictures:
 
 ![Gloves](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/glove.JPG) <br> Figure: 
 
-### Step 4: Set up
 
-Schematic:
-<br>
-
-![Setup](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/schematic_everything_connected_%40.jpg) <br> Figure: (RED) Micro-USB Cables, (BLUE) HDMI Cables, (BLACK) USB Cables
-
-
-Screen Displays:
+### Step 4: Screen Displays
 
 ![Setup](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/step_1.JPG) <br> Figure: Arragangement of displays. 
 
@@ -77,6 +70,12 @@ Screen Displays:
 
 ![Setup](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/step_4_Screen3.JPG) <br> Figure: Right Display Screen settings. 
 
+### Step 5: Set up
+
+Schematic:
+<br>
+
+![Setup](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/schematic_everything_connected_%40.jpg) <br> Figure: (RED) Micro-USB Cables, (BLUE) HDMI Cables, (BLACK) USB Cables
 
 ## Resources:
 
