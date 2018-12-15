@@ -69,7 +69,14 @@ Schematic:
 
 Screen Displays:
 
-![Setup](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/schematic_everything_connected_%40.jpg) <br>
+![Setup](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/step_1.JPG) <br> Figure: Arragangement of displays. 
+
+![Setup](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/step_2_Desktop.JPG) <br> Figure: Computer Display settings for computer screen. 
+
+![Setup](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/step_3_Screen2.JPG) <br> Figure: Left Display Screen settings. 
+
+![Setup](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/step_4_Screen3.JPG) <br> Figure: Right Display Screen settings. 
+
 
 ## Resources:
 
