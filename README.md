@@ -53,6 +53,7 @@ Pictures:
 
 Arduino Schematic:
 <br>
+![Setup](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/hapticGloveSchematic.png)
 
 Pictures:
 <br>
@@ -76,7 +77,6 @@ Schematic:
 <br>
 
 ![Setup](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/schematic_everything_connected_%40.jpg) <br> Figure: (RED) Micro-USB Cables, (BLUE) HDMI Cables, (BLACK) USB Cables
-![Setup](https://github.com/Esmolan/Esmolan.github.io/blob/master/Pictures/hapticGloveSchematic.png)
 
 ## Resources:
 
