@@ -1,6 +1,6 @@
 # Ho’ohui - Augmented Reality Visualizer with Haptics
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/cW0bLSaCokU/0.jpg)](https://www.youtube.com/watch?v=cW0bLSaCokU "Ho'ohui")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/cW0bLSaCokU/0.jpg)](https://www.youtube.com/watch?v=OyOBLKf3_8k&t=7s "Ho'ohui")
 <br>
 Demonstration Video
 
